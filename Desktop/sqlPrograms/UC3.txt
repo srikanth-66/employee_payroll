@@ -1,0 +1,26 @@
+-- UC3
+ INSERT INTO `addressbookservice`.`addressbook`
+(`firstName`,
+`lastName`,
+`address`,
+`city`,
+`state`,
+`zip`,
+`phoneNumber`,
+`email`)
+VALUES("srikanth","midathapalli","vanasthalipuram","hyderabad","telangana"
+,50070,9515744042,"srikanthmidathapalli@gmail.com");
+
+
+INSERT INTO `addressbookservice`.`addressbook`
+(`firstName`,
+`lastName`,
+`address`,
+`city`,
+`state`,
+`zip`,
+`phoneNumber`,
+`email`)
+VALUES("srinath","manithapelli","srinagr colony","warangal","telangana"
+,500561,9014456358,"my.srinath123@gmail.com");
+select * from addressbookservice.addressbook;
