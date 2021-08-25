@@ -1,0 +1,2 @@
+-- UC8
+select * from AddressBook group by city order by lastName ASC ;
