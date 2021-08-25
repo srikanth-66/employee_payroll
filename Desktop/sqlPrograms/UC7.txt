@@ -1,0 +1,2 @@
+-- UC7
+select count(city) from AddressBook;
