@@ -1,0 +1,13 @@
+INSERT INTO `addressbookservice`.`addressbook`
+(`firstName`,
+`lastName`,
+`address`,
+`city`,
+`state`,
+`zip`,
+`phoneNumber`,
+`email`,
+`type`)
+VALUES("sri","pelli","jainagr colony","mahabubabad","andhra pradesh"
+,407561,9014456358,"srinath123@gmail.com","family");
+select * from addressbookservice.addressbook;
