@@ -1,0 +1,4 @@
+-- UC9
+alter table AddressBook add column type varchar(20);
+desc AddressBook;
+update AddressBook set type='family';
