@@ -1,0 +1,4 @@
+-- UC4
+SET SQL_SAFE_UPDATES=0;
+update AddressBook set address='pimpiri' where lastName='m'; 
+select * from addressbook;
