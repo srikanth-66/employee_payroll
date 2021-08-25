@@ -1,0 +1,3 @@
+-- UC5
+delete from addressbook where lastName='m';
+select * from addressbook;
