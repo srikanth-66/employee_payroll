@@ -1,0 +1,5 @@
+-- UC5
+use payroll_services;
+select * from employee_payroll;
+select salary from employee_payroll where name='srikanth';
+select * from employee_payroll where start between cast('2019-01-01' as date)and date (now());
