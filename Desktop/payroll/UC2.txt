@@ -1,0 +1,9 @@
+-- UC2
+use payroll_services;
+create table employee_payroll
+(
+id int auto_increment,
+name varchar(50) not null,
+salary double not null, start date,
+primary key (id)
+);
