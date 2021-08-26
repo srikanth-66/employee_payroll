@@ -1,0 +1,3 @@
+-- UC7
+use payroll_services;
+select sum(salary) from employee_payroll where gender ='m' group by gender;
